@@ -31,6 +31,7 @@ h2 {
 h1 {
   color: blue;
   text-align: center;
+  padding: 0;
 }
 a:link {
 	text-decoration: none;
@@ -39,15 +40,20 @@ a:link {
 }
 a:hover {
 	background-color: yellow;
-	font-style: italic;
 	cursor: pointer;
+}
+#image {
+	border: 10px solid black;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: red;
 }
 </style>
 </head>
 <body>
 
 <h1><a href="https://www.google.co.in/">Simple Selectors (h1)</a></h1>
-<img src="https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg?cs=srgb&dl=animal-africa-zoo-lion-33045.jpg" width="400" height="400" alt="image of a walking person">
+<img src="https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg?cs=srgb&dl=animal-africa-zoo-lion-33045.jpg" width="400" height="400" alt="image of a lion" id="image">
 <h2>Subheading 1 (h2)</h2>
 <p class="highlight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus amet alias est? Nobis cum quasi at soluta odit, maiores quaerat dolores expedita ex nemo ea repellendus dolorem sed maxime quos?</p>
 <p class="highlight">Paragraph with attribute class="highlight". Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
