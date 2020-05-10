@@ -11,12 +11,12 @@
 	font-weight: bolder;
 }
 .content {
-	border: 1.5px solid black;
+	border: 1px solid black;
 	background-color: grey;
 	width: 32%;
 }
 #ch {
-    border: 1.5px solid black;
+    border: 1px solid black;
     background-color: pink;
     width: 40%;
     overflow: visible;
@@ -30,7 +30,7 @@
 }
 
 #be {
-	border: 1.5px solid black;
+	border: 1px solid black;
 	color: white;
 	background-color: red;
 	width: 40%;
@@ -44,7 +44,7 @@
 }
 
 #su {
-	border: 1.5px solid black;
+	border: 1px solid black;
 	background-color: yellow;
 	width: 40%;
 	overflow: visible;
@@ -68,7 +68,7 @@ p{
 @media(max-width: 767px) {
 
 .content {
-	border: 1.5px solid black;
+	border: 1px solid black;
 	background-color: grey;
 	width: 80%;
 }
@@ -82,7 +82,7 @@ section {
 }
 @media(min-width: 768px) and (max-width: 991px){
 .content {
-	border: 1.5px solid black;
+	border: 1px solid black;
 	background-color: grey;
 	width: 44%;
 }
@@ -93,12 +93,12 @@ section {
 	margin-bottom: 20px;
 }
 #sus{
-	border: 1.5px solid black;
+	border: 1px solid black;
 	background-color: grey;
 	width: 92%;
 }
 #su {
-	border: 1.5px solid black;
+	border: 1px solid black;
 	background-color: yellow;
 	width: 19.13%;
 	overflow: visible;
