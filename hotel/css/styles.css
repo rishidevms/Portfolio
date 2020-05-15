@@ -1,0 +1,137 @@
+body {
+	background-color: #de5b9e;
+}
+#header-nav{
+	background-color: #005ea6;
+	border-radius: 2px;
+	border: 1px solid #005ea6;
+}
+#logo {
+    background:  url(https://upload.wikimedia.org/wikipedia/commons/d/d8/Baskin-Robbins_logo.svg) no-repeat;
+	width: 206px;
+	height: 206px;
+	margin-right: 10px;
+	margin-left: 10px;
+	
+}
+.navbar-brand{
+	margin-top: 10px;
+}
+.navbar-brand h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 0.75;
+    text-shadow: 1px 1px 1px #222;
+    margin-left: 10px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:active {
+	text-decoration: none;
+	text-transform: none;
+	text-decoration-color: none;
+}
+.navbar-brand p{
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+#nav-list a {
+	margin-top: 40px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	font-size: 1.4em;
+
+}
+#nav-list a span {
+	font-size: 1.2em;
+	color: #fff;
+}
+#nav-list a:hover {
+	background: #de5b9e;
+}
+#phone {
+    margin-top: 5px;
+}
+#phone a{
+	text-align: right;
+	padding-bottom: 0px;
+	font-weight: normal;
+	color: #fff;
+}
+#phone div{
+	text-align: right;
+	margin-right: 15px;
+	color: #fff;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -60px;
+}
+@media(min-width: 1200px) {
+    #logo {
+    	background: url('../images/logo-lg.png') no-repeat;
+    	height: 150px;
+    	width: 150px;
+    }
+}
+@media(max-width: 1199px) and (min-width: 992px) {
+    #logo {
+    	background: url('../images/logo-md.png') no-repeat;
+    	height: 100px;
+    	width: 100px;
+        }
+    .navbar-brand h1{
+    	font-size: 50px;
+    	margin-top: -5px;
+
+    }
+    #nav-list{
+    	margin-top: -20px;
+    }
+
+
+}
+@media(max-width: 991px) and (min-width: 768px) {
+	.navbar-brand h1{
+    	font-size: 50px;
+    	margin-top: -5px;
+
+    }
+    #nav-list{
+    	margin-top:-20px;
+    }
+
+}
+@media(max-width: 767px) {
+       .navbar-brand h1{
+    	     font-size: 6vw;
+    	     margin-top: -20px;
+    	     padding: 0px;
+    	
+
+        }
+       .navbar-header button.navbar-toggle {
+	         margin-top: -40px;
+        }
+        .navbar-brand p{
+        	font-size: 2vw;
+        	margin-left: 10px;
+            padding: 5px;
+            margin-top: -10px;
+
+        } 
+        #collapsable-nav a {
+	        font-size: 1.2em;
+         }
+         #collapsable-nav a span {
+         	font-size: 1em;
+         	margin-right: 5px;
+         }
+
+}

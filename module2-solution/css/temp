@@ -1,0 +1,4 @@
+Need minor improvements.
+.The layout of the tablet view is not proper, as the third section is not taking up the entire width.
+.The background color of the titles of different sections could have been given different values as per the requirements of the assignment.
+.The three sections are slightly misaligned due to different right and left margins in desktop view.
