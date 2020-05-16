@@ -1,23 +1,23 @@
 body {
 	background-color: #de5b9e;
-}
-#header-nav{
+ }
+ #header-nav{
 	background-color: #005ea6;
 	border-radius: 2px;
 	border: 1px solid #005ea6;
-}
-#logo {
+ }
+ #logo {
     background:  url(https://upload.wikimedia.org/wikipedia/commons/d/d8/Baskin-Robbins_logo.svg) no-repeat;
 	width: 206px;
 	height: 206px;
 	margin-right: 10px;
 	margin-left: 10px;
 	
-}
-.navbar-brand{
+ }
+ .navbar-brand{
 	margin-top: 10px;
-}
-.navbar-brand h1{
+ }
+ .navbar-brand h1{
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #fff;
     font-weight: bold;
@@ -25,19 +25,19 @@ body {
     line-height: 0.75;
     text-shadow: 1px 1px 1px #222;
     margin-left: 10px;
-}
-.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:active {
+ }
+ .navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:active {
 	text-decoration: none;
 	text-transform: none;
 	text-decoration-color: none;
-}
-.navbar-brand p {
+ }
+ .navbar-brand p {
 	font-family: 'Caveat Brush', cursive;
 	margin-left: 10px;
     margin-top: 10px;
     color: #fff;
-}
-#nav-list a {
+ }
+ #nav-list a {
 	margin-top: 40px;
 	text-align: center;
 	font-weight: 400;
@@ -46,38 +46,38 @@ body {
 	font-family: 'Caveat Brush', cursive;
 	text-transform: uppercase;
 
-}
-#nav-list a span {
+ }
+ #nav-list a span {
 	font-size: 1.2em;
 	color: #fff;
-}
-#nav-list a:hover {
+ }
+ #nav-list a:hover {
 	background: #de5b9e;
-}
-#phone {
+ }
+ #phone {
     margin-top: 5px;
     font-family: 'Caveat Brush', cursive;
-}
-#phone a{
+ }
+ #phone a{
 	text-align: right;
 	padding-bottom: 0px;
 	font-weight: normal;
 	color: #fff;
-}
-#phone div{
+ }
+ #phone div{
 	text-align: right;
 	margin-right: 15px;
 	color: #fff;
-}
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+ }
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
 	border: 1px solid #fff;
-}
-.navbar-header button.navbar-toggle {
+ }
+ .navbar-header button.navbar-toggle {
 	clear: both;
 	margin-top: -60px;
-}
+ }
 
-.call{
+ .call{
 	width: 98%;
 	margin-top: -15px;
 	margin-bottom: 20px;
@@ -91,48 +91,48 @@ body {
     color: #fff;
     box-shadow: 1px 1px 1px #222;
     font-family: 'Caveat Brush', cursive;
-}
-.call a {
+ }
+ .call a {
 	color: #fff;
 	align-content: center;
 	font-size: 20px
-}
-.call:hover a:hover{
+ }
+ .call:hover a:hover{
 	text-decoration: none;
 	color: #de5b9e;
-}
-.call:hover
-{
+ }
+ .call:hover
+ { 
 	box-shadow: 0px 0px 50px #3F031F;
-}
-.call a span{
+ }
+ .call a span{
 	margin-right: 5px;
 	font-size: 18px;
-}
-#main-content .jumbotron{
+ }
+ #main-content .jumbotron{
 	 box-shadow: 0px 0px 50px #3F031F;
        }
 
-#flavour-tile, #special-tile, #map-tile{
+ #flavour-tile, #special-tile, #map-tile{
         width: 100%;
         height: 250px;
         overflow: hidden;
         margin-bottom: 20px;
         position: relative;
         border-radius: 4px;
-}
-#flavour-tile:hover, #special-tile:hover, #map-tile:hover{
+ }
+ #flavour-tile:hover, #special-tile:hover, #map-tile:hover{
 	box-shadow: 0px 0px 50px #3F031F;
-}
-#flavour-tile{
+ }
+ #flavour-tile{
 	background: url('../images/flavour.jpg') no-repeat;
 	background-position: center;
-}
-#special-tile{
+ }
+ #special-tile{
 	background: url('../images/specials.jpg') no-repeat;
 	background-position: center;
-}
-#flavour-tile span, #special-tile span, #map-tile span{
+ }
+ #flavour-tile span, #special-tile span, #map-tile span{
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
@@ -144,9 +144,9 @@ body {
 	color: #fff;
 	text-transform: uppercase;
 	font-family: 'Caveat Brush', cursive;
-}
+ }
 
-@media(min-width: 1200px) {
+ @media(min-width: 1200px) {
     #logo {
     	background: url('../images/logo-lg.png') no-repeat;
     	height: 150px;
@@ -155,10 +155,11 @@ body {
     #main-content .jumbotron{
 	 background:url('../images/jumbo-big.jpg') no-repeat;
 	 height: 675px;
+	 width: 100%;
 	 
        }
-}
-@media(max-width: 1199px) and (min-width: 992px) {
+ }
+ @media(max-width: 1199px) and (min-width: 992px) {
     #logo {
     	background: url('../images/logo-md.png') no-repeat;
     	height: 100px;
@@ -179,8 +180,8 @@ body {
     }
 
 
-}
-@media(max-width: 991px) and (min-width: 768px) {
+ }
+ @media(max-width: 991px) and (min-width: 768px) {
 	.navbar-brand h1{
     	font-size: 50px;
     	margin-top: -5px;
@@ -194,9 +195,8 @@ body {
 	height: 500px;
 
        }
-
-}
-@media(max-width: 767px) {
+  }
+ @media(max-width: 767px) {
        .navbar-brand h1{
     	     font-size: 7vw;
     	     margin-top: -10px;
@@ -232,17 +232,14 @@ body {
       .jumbotron img{
       	border-radius: 4px;
       }
-	  }
       #flavour-tile, #special-tile, #map-tile{
         width: 290px;
         height: 210px;
         margin: 0 auto 10px;
-}  
+      }  
+ }
+ @media(max-width: 350px){
 
-
-}
-@media(max-width: 350px)
-{
 	.navbar-brand h1{
     	     font-size: 7vw;
     	     padding-top: 5px;
@@ -260,12 +257,11 @@ body {
 	  	
 	  }
 	    .jumbotron img{
-      	border-radius: 4px;
-      }  
+      	border-radius: 4px;  
        }
         #flavour-tile, #special-tile, #map-tile{
         width: 250px;
         height: 200px;
         margin: 0 auto 10px;
-}  
+        }  
 }
