@@ -37,6 +37,11 @@ body {
     margin-top: 10px;
     color: #fff;
  }
+ #collapsable-nav{
+ 	background-color: #005ea6;
+	border-radius: 2px;
+	border: 1px solid #005ea6;
+ }
  #nav-list a {
 	margin-top: 40px;
 	text-align: center;
@@ -77,38 +82,20 @@ body {
 	margin-top: -60px;
  }
 
- .call{
-	width: 98%;
-	margin-top: -15px;
-	margin-bottom: 20px;
-	text-align: center;
-	background-color: #005ea6;
-    border: 1px solid #005ea6; 
-    margin-right: 1%;
-    margin-left: 1%;
-    height: 60px;
-    padding-top: 7px;
-    color: #fff;
-    box-shadow: 1px 1px 1px #222;
+ #call-btn {
+	padding: 0px;
     font-family: 'Caveat Brush', cursive;
  }
- .call a {
-	color: #fff;
-	align-content: center;
-	font-size: 20px
- }
- .call:hover a:hover{
+ 
+ #call-btn a:hover{
 	text-decoration: none;
 	color: #de5b9e;
  }
- .call:hover
- { 
-	box-shadow: 0px 0px 50px #3F031F;
+ #call-btn span:hover {
+ 	color: #005ea6;
+ 	 
  }
- .call a span{
-	margin-right: 5px;
-	font-size: 18px;
- }
+ 
  #main-content .jumbotron{
 	 box-shadow: 0px 0px 50px #3F031F;
        }
@@ -205,7 +192,7 @@ body {
 
         }
        .navbar-header button.navbar-toggle {
-	         margin-top: -45px;
+	         margin-top: -20px;
         }
         .navbar-brand p{
         	font-size: 13px;
@@ -214,7 +201,16 @@ body {
             margin-top: -5px;
             
 
-        } 
+        }
+        #call-btn > a {
+         font-size: 1.5em;
+         display: block;
+         margin: 0 20px;
+         padding: 10px;
+         border: 2px solid #fff;
+         background-color: #fff;
+         color: #005ea6;
+       }
         #collapsable-nav a {
 	        font-size: 1.2em;
          }
@@ -236,7 +232,17 @@ body {
         width: 290px;
         height: 210px;
         margin: 0 auto 10px;
-      }  
+      } 
+      #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+.container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  } 
  }
  @media(max-width: 350px){
 
@@ -263,5 +269,24 @@ body {
         width: 250px;
         height: 200px;
         margin: 0 auto 10px;
-        }  
+        } 
+        #call-btn > a{
+     font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  } 
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+.container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
 }
